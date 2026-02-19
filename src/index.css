@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-appBg text-slate-700 font-sans;
+}
+
+* {
+  @apply antialiased;
+}
